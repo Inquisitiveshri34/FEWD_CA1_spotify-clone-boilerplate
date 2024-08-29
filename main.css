@@ -128,8 +128,16 @@ footer{
     width: 20vw;
 }
 
+.footgreen{
+    background-color: #1CD760;
+    padding: 1px;
+    color: black;
+    font-weight: bold;
+}
 
-
+.footgreen p{
+    margin-left:1100px;
+}
 
 
 

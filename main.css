@@ -1,0 +1,137 @@
+body{
+    background-color: #202020;
+    color: white;
+    margin: 0;
+    font-family: "Montserrat", sans-serif;
+}
+
+nav{
+    width: 275px;
+    float:left;
+    background-color: black;
+    height: 100vh;
+    margin-right: 30px;
+}
+
+#logo{
+    width: 240px;
+}
+
+.navpart{
+    margin:50px 10px;
+}
+.navpart1{
+    margin:10px 10px;
+}
+
+.nav_opts_p1{
+    margin: 15px 0px;
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    width: 100%;
+}
+.nav_opts_p1:hover{
+    background-color: #282828;
+}
+
+#icon{
+    width: 30px;
+    height: 30px;
+    margin-right: 20px;
+}
+
+
+header{
+    display:flex;
+    justify-content: space-between;
+    padding: 15px;
+}
+
+#headerPart{
+    height: 45px;
+}
+
+.playlist_opts{
+    background-color: #303030;
+    margin: 10px;
+    display: flex;
+    align-items: center;
+    width: 20%;
+    border-radius: 10px;
+}
+
+.playlist_opts span{
+    margin: 10px;
+}
+
+.show_opts p{
+    color: #AEAEAE;
+}
+
+.pageIntrop1{
+    display:flex;
+    flex-wrap: wrap;
+}
+
+.pageIntrop2head{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    margin-top: 30px;
+}
+
+.pageIntrop2{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    margin-top: 30px;
+}
+
+
+footer{
+    position:fixed;
+    width: 100vw;
+    bottom: 0;
+}
+
+.footerLine1{
+    display:flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #181818;
+    margin:0;
+}
+
+.play_music{
+    display:flex;
+    align-items: center;
+    justify-content: space-evenly;
+    width: 20vw;
+    line-height: 0;
+}
+
+.play_music p{
+    color: #AEAEAE;
+    font-size: x-small;
+}
+
+#play_song{
+    width: 5vw;
+}
+
+#music_player{
+    width:40vw;
+}
+
+#music_opts{
+    width: 20vw;
+}
+
+
+
+
+
+
+
+
